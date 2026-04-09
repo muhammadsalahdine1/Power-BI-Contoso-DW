@@ -1,6 +1,8 @@
 # Power-BI-Contoso-DW
 ## Dataset Contoso-data 
 FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimProductCategory
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/c.PNG" width="1000">
+
 ## Let's breakdown the report by questions?
 
 ### Changing visuals
@@ -11,3 +13,5 @@ FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimPr
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/a.PNG" width="500">
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/b.PNG" width="500">
 <\div>
+
+### I want to see the data in a summarized way so the table needs to become a matrix.
