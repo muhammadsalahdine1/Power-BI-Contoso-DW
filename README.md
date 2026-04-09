@@ -2,6 +2,9 @@
 ## Dataset Contoso-data 
 FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimProductCategory
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/c.PNG" width="1000">
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/b.PNG" width="1000">
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/d.PNG" width="1000">
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/n.PNG" width="1000">
 
 ## Let's breakdown the report by questions?
 
@@ -77,7 +80,24 @@ FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimPr
 - Question: What was the total forecasted amount?
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/m.PNG" width="1000">
  
+### Turning off interactions
+#### By default, visualizations on a report page can be used to cross-filter the other visualizations on the page. Sometimes, you want to disable this functionality and keep a chart static regardless of what selections have been made elsewhere in the report. Let's turn off those interactions! Note that you might have to temporarily move a visual to be able to see the circle with the line through it.
 
+- In this report, we want to make sure the Actual, Forecast, and Budget cards don't change when other elements are selected.
+- Select the "Budget Product Sold" visual.
+- Go into the interaction editing mode in the Format tab at the top of the screen.
+- Turn off interactions with each of the three cards.
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/n.PNG" width="1000">
  
-
+### Applying advanced filtering
+#### Let's take our filter skills up a notch! I want to find out what the five best performing stores are in terms of sales amount. To do this I'll create a new bar chart that displays only those stores. After that, I'll use some of my formatting skills to improve your visual.
+- Add a clustered bar chart to the report, with the EntityName on the Y-axis and the Amount as X-axis.
+- Go to the filter pane and add a Top N filter on this visual.
+- Show only the top five EntityName stores based on the Amount
+- To filter on the top N, click on EntityName in the filter pane, change the filter type to Top N.
+- To show only the top five, you need to type "5" in the Show items box.
+- The value you want to filter by is Amount, so you'll need to drag it to the By value section in the Filters panel.
+- Click Apply filter.
+- What is the name of the 5th best performing Contoso store?
+<img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/o.PNG" width="1000">
 
