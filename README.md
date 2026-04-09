@@ -1,6 +1,7 @@
 # Power-BI-Contoso-DW
 ## Dataset Contoso-data 
 FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimProductCategory
+## Let's breakdown the report by questions?
 
 ### Changing visuals
 ### Time to get to work! I'm are going to change and format visuals. 
