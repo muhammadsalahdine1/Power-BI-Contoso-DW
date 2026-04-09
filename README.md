@@ -1,6 +1,7 @@
 # Power-BI-Contoso-DW
 ## Dataset Contoso-data 
-FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimProductCategory
+#### FactStrategyPlan - DimAccount - DimDate - DimEntity - DimProductCategory - DimProductCategory
+
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/c.PNG" width="1000">
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/b.PNG" width="1000">
 <img src="https://github.com/muhammadsalahdine1/Power-BI-Contoso-DW/blob/main/d.PNG" width="1000">
